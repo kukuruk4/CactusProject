@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,12 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
-    <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Ninject" Version="3.3.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CactusProject.BLL\CactusProject.BLL.csproj" />
+    <ProjectReference Include="..\CactusProject.DAL\CactusProject.DAL.csproj" />
   </ItemGroup>
 
 </Project>

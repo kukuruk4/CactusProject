@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CactusProject.WEB", "Cactus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CactusProject.DAL", "CactusProject.DAL\CactusProject.DAL.csproj", "{FBE3B6C2-F0B1-4529-A4F7-1D47B42713EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CactusProject.BLL", "CactusProject.BLL\CactusProject.BLL.csproj", "{374D758B-A959-48E9-A213-C2C8BB2D2509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FBE3B6C2-F0B1-4529-A4F7-1D47B42713EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBE3B6C2-F0B1-4529-A4F7-1D47B42713EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBE3B6C2-F0B1-4529-A4F7-1D47B42713EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374D758B-A959-48E9-A213-C2C8BB2D2509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374D758B-A959-48E9-A213-C2C8BB2D2509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374D758B-A959-48E9-A213-C2C8BB2D2509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374D758B-A959-48E9-A213-C2C8BB2D2509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
